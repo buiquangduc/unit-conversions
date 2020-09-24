@@ -1,22 +1,22 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "ducbuiquang/unit-conversions",
+    "description": "Perform unit conversions in PHP",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "ducbuiquang",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/ducbuiquang/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Duc",
+            "email": "ducbuiquangxd@gmail.com",
+            "homepage": "https://ducbuiquang.dev",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Ducbuiquang\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Ducbuiquang\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
